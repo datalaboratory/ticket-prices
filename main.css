@@ -1,0 +1,199 @@
+@font-face {
+	font-family: 'Garamond';
+	src: url('fonts/ORG46__W.eot');
+	src:
+	     url('fonts/ORG46__W.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/ORG46__W.woff') format('woff'),
+	     url('fonts/ORG46__W.ttf') format('truetype'),
+	     url('fonts/ORG46__W.svg#OriginalGaramondBTWeb') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body 					{	margin: 0;
+							padding: 0;
+							font-size: 13px;
+							font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+							font-weight: 300;}
+
+.clear					{	clear: both;}
+
+.mainContainer			{	width: 1000px;
+							margin: 20 auto 0;}
+
+.header h1				{	font-weight: 300; margin-bottom: 10px;
+							font-size: 32px;
+							margin-bottom: 15px;}
+h2 {font-weight: 300; margin: 40px 0 0;}
+
+.header, .slider {
+	padding-left: 50px;
+}
+
+a {
+	color: #000;
+}
+
+
+.slider { margin-bottom: 15px;}
+.slider #slider-stroke {
+	stroke: #fff;
+	stroke-width: 2;
+	stroke-opacity: 0.7;
+}
+
+.line {
+	cursor: pointer;
+  fill: none;
+  stroke-width: 1px;
+}
+
+.stroke {
+  cursor: pointer;
+  fill: none;
+  stroke-width: 3px;
+  stroke: #fff;
+  opacity: 0.5;
+}
+
+.default {
+	cursor: pointer;
+	/*stroke: black;*/
+	opacity: 0.1;
+}
+.circle-default {
+	cursor: pointer;
+	opacity: 1;
+	stroke-width: 1px;
+	stroke: #fff;
+	stroke-opacity: 0.5;
+}
+.text-hidden {
+	display: none;
+	cursor: default;
+	/*opacity: 0;*/
+}
+.text-default {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10px;
+	opacity: 1;
+	background: #fff;
+}
+.circle-hidden {
+	cursor: default;
+	/*opacity: 0;*/
+	display: none;
+}
+.circle-hover {
+	cursor: pointer;
+	opacity: 1;
+}
+.tooltip-before {
+	padding: 0px 2px 0px 2px;
+	margin-left: -2px;
+	top: -12px;
+	background: rgba(255, 255, 255, 0.85);
+	position: relative;
+	min-height: 18px;
+	min-width: 5px;
+	max-width: 250px;
+}
+.tooltip-flight {
+	text-align: right;
+	display:none;
+	color: #fff;
+	padding: 3px;
+	background: #000;
+	position: absolute;
+	min-height: 5px;
+	min-width: 5px;
+}
+
+.hover {
+	/*stroke: #00abff;*/
+	opacity: 1;
+	stroke-width: 1px;
+}
+
+.hidden {
+	cursor: default;
+	display: none;
+	/*opacity: 0;*/
+}
+.slider .control {
+	width: 11px;
+	height: 28px;
+	position: relative;
+	top: -29px;
+}
+.slider .left {
+	background: url(img/slider-left.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-left:-11px;
+}
+
+.slider .right {
+	background: url(img/slider-right.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top: -57px;
+}
+.footer {margin: 60px 0px 160px 50px;}
+.signature {
+	float: left;
+	width: 20%;
+	line-height: 27px;
+	margin-right: 5%;
+}
+.carriers {
+	padding-top: 3px;
+	float: left;
+	width: 75%;
+	min-height: 50px;
+	line-height: 21px;
+}
+.signature .labsign {
+font-family: 'Garamond', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 14px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+text-decoration: none;}
+
+.signature a {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+	text-decoration: none;
+}
+
+.axisContainer {
+	margin-top: 62px;
+	float: left;
+}
+.axisContainer text {
+	font-size: 12px;
+}
+
+.axisContainer .domain {
+	opacity: 0;
+}
+
+.xAxis .domain {
+	opacity: 0;
+}
+
+.xAxis text {
+	font-size: 12px;
+}
+
+.graphContainer {
+	float: left;
+	/*background-color: #fb345a;*/
+	margin-left: 0px;
+	margin-top: -18px;
+}
+.graphContainer .first-h2 {
+	margin-left: 0px;
+}
+.graph .first {
+	margin-left: 0px;
+}
+
